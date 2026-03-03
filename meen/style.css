@@ -1,0 +1,151 @@
+body {
+    background: linear-gradient(180deg, #761C28 0%, #FF88BE 53.85%, #FFD2D9 95.67%);
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.topbar {
+    display: flex;
+    width: 100vw;
+    height: 74px;
+    padding: 0 1044px 0 41px;
+    justify-content: left;
+    align-items: center;
+    gap: 0;
+    background: #EFEFEF;
+}
+
+.profile {
+    width: 230px;
+    height: 360px;
+    aspect-ratio: 63/83;
+    border-radius: 115px;
+    border: 1px solid #433B0C;
+    background: url(img/S__72818965.jpg) lightgray -169.33px -202px / 202.848% 205.102% no-repeat;
+    overflow: hidden;
+}
+
+
+.profile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-container {
+    margin: 10px;
+    display: flex;
+    width: 352px;
+    height: 420px;
+    padding: 30px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border: 1px solid #433B0C;
+    background: #B9AC39;
+}
+
+.profile-container h1 {
+    width: 230px;
+    height: 106px;
+    flex-shrink: 0;
+    color: #FFF;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #433B0C;
+    font-family: "League Script";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Immeen {
+    align-items: left;
+    justify-content: center;
+    display: flex;
+    width: 340px;
+    flex-direction: column;
+}
+
+
+.Immeen p {
+    height: 23px;
+    align-self: stretch;
+    color: #FFF;
+    font-family: "New Tegomin";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Immeen p2 {
+    color: #1E1414;
+    text-align: right;
+    font-family: "New Tegomin";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Immeen h1 {
+    color: #FFF;
+    font-family: "Nothing You Could Do";
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.rightlayout {
+    display: flex;
+    width: 310px;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    margin-left: 50px;
+    gap: 50px;
+}
+
+.rightlayout h1 {
+    height: 19px;
+    align-self: stretch;
+    color: #FFF;
+    font-family: "New Tegomin";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.rightlayout p1 {
+    height: 180px;
+    align-self: stretch;
+    color: #FFF;
+    font-family: "Nothing You Could Do";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.rightlayout p2 {
+    height: 102px;
+    align-self: stretch;
+    color: #261E1E;
+    font-family: "Nothing You Could Do";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
